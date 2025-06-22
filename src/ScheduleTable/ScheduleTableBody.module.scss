@@ -1,0 +1,23 @@
+
+.cell {
+    border: 1px solid #969494;
+    padding: 8px 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
+    transform-origin: center center; 
+    &:hover {
+        transform: scale(1.2); 
+        z-index: 1; 
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        background-color: rgb(221, 221, 221);
+    }
+}
+
+.evenRow {
+    background-color: #fafafa;
+}
+
+.current {
+    background-color: #ffffcc;
+}
